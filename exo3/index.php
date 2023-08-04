@@ -11,18 +11,22 @@ $name = 'Nathalie';
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="./public/assets/css/style.css">
-    <title>PHP exo 1</title>
+    <title>PHP exo 3</title>
 </head>
 
 <body>
     <header class="container-fluid">
         <div class="row">
             <img class="imgLogo col-3" src="./public/assets/img/PHP-logo.png" alt="Logo PHP">
-            <h1 class="col-7">Exercice 1</h1>
-            <p>Créer une variable name et l'initialiser avec la valeur de votre choix. Afficher son contenu.</p>
+            <h1 class="col-7">Exercice 3</h1>
+            <p>Créer deux variables. Initialiser la première à 100 et la deuxième avec un nombre compris en 1 et 100.
+                Tant que la première variable n'est pas inférieure ou égale à 10 :<br>
+                - multiplier la première variable avec la deuxième<br>
+                - afficher le résultat<br>
+                - décrémenter la première variable</p>
         </div>
     </header>
-    <main class="container- fluid">
+    <main class="container-fluid">
         <div class="row">
             <div class="results position-absolute top-50 start-50 translate-middle ">
                 <p>
@@ -30,7 +34,9 @@ $name = 'Nathalie';
                     echo "$name";
                     ?>
                 </p>
-                <p><?=$name?></p>
+                <p>
+                    <?= $name ?>
+                </p>
             </div>
         </div>
     </main>

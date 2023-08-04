@@ -1,5 +1,5 @@
 <?php
-$name = 'Nathalie';
+$number = '0';
 ?>
 
 <!DOCTYPE html>
@@ -28,7 +28,12 @@ $name = 'Nathalie';
     <main class="container-fluid">
         <div class="row">
             <div class="results position-absolute top-50 start-50 translate-middle ">
-
+                <p><?php
+                    $number = 1;
+                    while ($number <= 10) {
+                        echo $number . ' ';
+                        $number++;
+                    } ?> </p>
             </div>
         </div>
     </main>
