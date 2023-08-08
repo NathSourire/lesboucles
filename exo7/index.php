@@ -27,9 +27,8 @@ $lines = 1;
             <div class="results position-absolute top-50 start-50 translate-middle ">
                 <p>
                     <?php
-                    while ($lines <= 100) {
-                        echo  '- ' . $lines . ' -  On tient le bon bout.<br />';
-                        $lines++; // $lines = $lines + 1
+                    for ($i = 0; $i <= 6; $i++) {
+                        echo '15 x ', $i, ' = ', (15 * $i), '<br/>';
                     }
                     ?>
                 </p>

@@ -31,7 +31,7 @@ $number = '0';
                 <p><?php
                     $number = 1;
                     while ($number <= 10) {
-                        echo $number . ' ';
+                        echo $number . ' <br>';
                         $number++;
                     } ?> </p>
             </div>

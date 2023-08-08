@@ -29,10 +29,12 @@ $number2 = '47'
     </header>
     <main class="container-fluid">
         <div class="row">
-            <div class="results position-absolute top-50 start-50 translate-middle ">
-                <p>
+            <div class=" ">
+                <p class="results col-6 p-2 flex-fill" >
                     <?php
-
+                        for ($i=0; $i<=20; $i++) {
+                            echo "$i <br>" ;
+                        }
                     ?>
                 </p>
             </div>
