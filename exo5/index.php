@@ -28,7 +28,7 @@ $lines = '1';
             <p>
                     <?php
                     while ($lines <= 15) {
-                        echo  '- ' . $lines . ' -  On tient le bon bout.<br />';
+                        echo  '- ' . $lines . ' -  On y arrive presque.<br />';
                         $lines++; // $lines = $lines + 1
                     }
                     ?>

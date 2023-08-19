@@ -24,13 +24,18 @@ $name = 'Nathalie';
     </header>
     <main class="container- fluid">
         <div class="row">
-            <div class="results position-absolute top-50 start-50 translate-middle ">
+            <div class="results  ">
                 <p>
-                    <?php
-                    echo "$name";
+                <?php
+                    for ($i = 0; $i <= 200; $i++) {
+                        if ($i % 12 === 0 ) {
+                        echo $i, ' - Enfin !!!! <br>';
+                        } else {
+                        echo $i, ' <br>';
+                        }
+                    }
                     ?>
                 </p>
-                <p><?=$name?></p>
             </div>
         </div>
     </main>

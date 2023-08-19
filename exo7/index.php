@@ -1,5 +1,5 @@
 <?php
-$lines = 1;
+
 ?>
 
 <!DOCTYPE html>
@@ -24,11 +24,15 @@ $lines = 1;
     </header>
     <main class="container-fluid">
         <div class="row">
-            <div class="results position-absolute top-50 start-50 translate-middle ">
+            <div class="results ">
                 <p>
                     <?php
-                    for ($i = 0; $i <= 6; $i++) {
-                        echo '15 x ', $i, ' = ', (15 * $i), '<br/>';
+                    for ($i = 0; $i <= 100; $i++) {
+                        if ($i % 15 === 0 ) {
+                        echo $i, ' - On tient le bon bout <br>';
+                        } else {
+                        echo $i, ' <br>';
+                        }
                     }
                     ?>
                 </p>

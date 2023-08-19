@@ -1,5 +1,5 @@
 <?php
-$name = 'Nathalie';
+
 ?>
 
 <!DOCTYPE html>
@@ -31,11 +31,8 @@ $name = 'Nathalie';
             <div class="results position-absolute top-50 start-50 translate-middle ">
                 <p>
                     <?php
-                    echo "$name";
+                    echo '';
                     ?>
-                </p>
-                <p>
-                    <?= $name ?>
                 </p>
             </div>
         </div>

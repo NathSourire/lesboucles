@@ -1,7 +1,3 @@
-<?php
-$name = 'Nathalie';
-?>
-
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -28,7 +24,13 @@ $name = 'Nathalie';
     <main class="container-fluid">
         <div class="row">
             <div class="results position-absolute top-50 start-50 translate-middle ">
-
+                <p>
+                    <?php
+                    for ($lines = 1; $lines <= 10; $lines += $lines / 2) {
+                        echo '- ' . $lines . ' -  <br />';
+                    }
+                    ?>
+                </p>
             </div>
         </div>
     </main>

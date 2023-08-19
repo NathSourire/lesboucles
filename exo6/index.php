@@ -1,5 +1,5 @@
 <?php
-
+$i = '1';
 ?>
 
 <!DOCTYPE html>
@@ -27,9 +27,9 @@
             <div class="results position-absolute top-50 start-50 translate-middle ">
                 <p>
                     <?php
-                        for ($i = 20; $i = 0; $i--) {
-                            echo $i;
-                        }
+                    for ($i = 20; $i >= 0; $i--) {
+                        echo "-  $i  -  C'est presque bon <br />";
+                    }
                     ?>
                 </p>
             </div>
