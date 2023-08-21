@@ -1,5 +1,6 @@
 <?php
-
+$number1 = '100';
+$number2 = '47';
 ?>
 
 <!DOCTYPE html>
@@ -28,11 +29,14 @@
     </header>
     <main class="container-fluid">
         <div class="row">
-            <div class="results position-absolute top-50 start-50 translate-middle ">
+            <div class="results ">
                 <p>
                     <?php
-                    echo '';
-                    ?>
+                    while ($number1 >= 10) {
+                        $sum = ($number1 * $number2);
+                        echo $sum . ' <br>';
+                        $number1--;
+                    } ?>
                 </p>
             </div>
         </div>

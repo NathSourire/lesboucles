@@ -29,11 +29,12 @@ $number = '0';
         <div class="row">
             <div class="results position-absolute top-50 start-50 translate-middle ">
                 <p><?php
-                    $number = 1;
+                    $number = 0;
                     while ($number <= 10) {
                         echo $number . ' <br>';
                         $number++;
-                    } ?> </p>
+                    } ?> 
+                </p>
             </div>
         </div>
     </main>

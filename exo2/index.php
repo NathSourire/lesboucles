@@ -1,6 +1,6 @@
 <?php
 $number1 = '0';
-$number2 = '47'
+$number2 = '47';
     ?>
 
 <!DOCTYPE html>
@@ -30,12 +30,12 @@ $number2 = '47'
     <main class="container-fluid">
         <div class="row">
             <div class=" ">
-                <p class="results col-6 p-2 flex-fill" >
-                    <?php
-                        for ($i=0; $i<=20; $i++) {
-                            echo "$i <br>" ;
-                        }
-                    ?>
+            <p><?php
+                    while ($number1 < 20) {
+                        $sum = ($number1*$number2);
+                        echo $sum . ' <br>';
+                        $number1++;
+                    } ?> 
                 </p>
             </div>
         </div>
