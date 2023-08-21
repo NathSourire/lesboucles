@@ -33,9 +33,9 @@ $number2 = '47';
                 <p>
                     <?php
                     while ($number1 >= 10) {
-                        $sum = ($number1 * $number2);
-                        echo $sum . ' <br>';
-                        $number1--;
+                        $sum = ($number1 * $number2);?>
+                        <p><?= $sum ?></p>
+                    <?php $number1--;
                     } ?>
                 </p>
             </div>

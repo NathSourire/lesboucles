@@ -28,13 +28,23 @@ $number = '0';
     <main class="container-fluid">
         <div class="row">
             <div class="results position-absolute top-50 start-50 translate-middle ">
-                <p><?php
-                    $number = 0;
-                    while ($number <= 10) {
-                        echo $number . ' <br>';
-                        $number++;
-                    } ?> 
-                </p>
+                <!-- <p><?php
+                // while ($number < 10) {
+                //     echo $number . ' <br>';
+                //     $number++;
+                // } ?> 
+                </p> -->
+
+                <!-- autre tech -->
+                <?php
+                while ($number < 10) {
+                    ?>
+                    <p>
+                        <?= $number ?>
+                    </p>
+                    <?php $number++;
+                } ?>
+
             </div>
         </div>
     </main>

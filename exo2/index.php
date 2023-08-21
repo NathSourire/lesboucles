@@ -1,7 +1,7 @@
 <?php
 $number1 = '0';
 $number2 = '47';
-    ?>
+?>
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -29,13 +29,17 @@ $number2 = '47';
     </header>
     <main class="container-fluid">
         <div class="row">
-            <div class=" ">
-            <p><?php
+            <div class="results">
+                <p>
+                    <?php
                     while ($number1 < 20) {
-                        $sum = ($number1*$number2);
-                        echo $sum . ' <br>';
+                        $sum = ($number1 * $number2); ?>
+                    <p>
+                        <?= $sum ?>
+                    </p>
+                    <?php
                         $number1++;
-                    } ?> 
+                    } ?>
                 </p>
             </div>
         </div>

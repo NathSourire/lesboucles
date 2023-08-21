@@ -1,5 +1,5 @@
 <?php
-$name = 'Nathalie';
+
 ?>
 
 <!DOCTYPE html>
@@ -26,16 +26,22 @@ $name = 'Nathalie';
         <div class="row">
             <div class="results  ">
                 <p>
-                <?php
+                    <?php
                     for ($i = 0; $i <= 200; $i++) {
-                        if ($i % 12 === 0 ) {
-                        echo $i, ' - Enfin !!!! <br>';
+                        if ($i % 12 === 0) {
+                            echo $i, ' - Enfin !!!! <br>';
                         } else {
-                        echo $i, ' <br>';
+                            echo $i, ' <br>';
                         }
                     }
                     ?>
                 </p>
+                </p>
+                <?php for ($i = 200; $i >= 0; $i -= 12) { ?>
+                    <p>
+                        <?= $i ?> Enfin !!!
+                    </p>
+                <?php } ?>
             </div>
         </div>
     </main>

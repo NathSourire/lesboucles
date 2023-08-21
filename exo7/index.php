@@ -27,15 +27,20 @@
             <div class="results ">
                 <p>
                     <?php
-                    for ($i = 0; $i <= 100; $i++) {
-                        if ($i % 15 === 0 ) {
-                        echo $i, ' - On tient le bon bout <br>';
+                    for ($i = 1; $i <= 100; $i++) {
+                        if ($i % 15 === 0) {
+                            echo $i, ' - On tient le bon bout <br>';
                         } else {
-                        echo $i, ' <br>';
+                            echo $i, ' <br>';
                         }
                     }
                     ?>
                 </p>
+                <?php for ($i = 1; $i <= 100; $i += 15) { ?>
+                    <p>
+                        <?= $i ?> On tient le bon bout
+                    </p>
+                <?php } ?>
             </div>
         </div>
     </main>
